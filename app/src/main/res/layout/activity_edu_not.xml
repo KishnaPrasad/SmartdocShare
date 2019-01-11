@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.smartdocshare.edu_not">
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="84dp"
+        android:text="fy"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/b1"
+        android:layout_marginTop="12dp"
+        android:text="sy"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/b2"
+        android:layout_marginTop="16dp"
+        android:text="ty"
+        android:visibility="invisible" />
+</RelativeLayout>
